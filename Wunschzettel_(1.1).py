@@ -206,7 +206,7 @@ def menu():
     print(
         Fore.WHITE + "Tipe" + Fore.RED + "'read'" + Fore.WHITE + "to show all lists to read from \nor  tipe" + Fore.RED + "'write'" + Fore.WHITE + "to add a wish" + Style.RESET_ALL)
 
-    option = input("Hier eingeben: ")
+    option = input(">>>")
 
     if option == "read" or option == "1" or option == 'r':
         print("List Menu:")
